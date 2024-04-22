@@ -32,8 +32,8 @@ h2 {
 
 #profile-photo{
 border-radius: 800px 50px 50px 800px;
-height: 100%;
-width: 100%;
+max-height: 100%;
+max-width: 100%;
 border-width: 30px;
 border-color: #8CBEB2;
 border-style: solid;
@@ -41,21 +41,9 @@ border-style: solid;
 
 .container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: 400px;
-    grid-gap:100px;
+    grid-template-columns: repeat(auto-fill, minmax (150px, 1fr));
+    width: 100%
 }
-
-.box1{
-   
-}
-
-.box2{
-   
-  
-}
-
-
 
 /* 
 https: //colordesigner.io/color-scheme-builder#5C4B51-8CBEB2-F2EBBF-F3B562-F06060
