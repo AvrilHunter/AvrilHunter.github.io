@@ -11,30 +11,34 @@ body {
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 6rem;
   color: #5c4b51;
   text-align: center;
+
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 5rem;
   color: #5c4b51;
   text-align: center;
 }
 
-.description {
-  font-size: 42px;
-  font-weight: 380;
+h3 {
+  font-size: 2rem;
+  color: #5c4b51;
+}
+
+p {
+  font-size: 1rem;
   color: #5c4b51;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 #profile-photo{
 border-radius: 800px 50px 50px 800px;
-max-height: 100%;
-max-width: 100%;
-border-width: 30px;
+max-height: 9rem;
+max-width: 9rem;
+border-width: 15px;
 border-color: #8CBEB2;
 border-style: solid;
 }
@@ -44,6 +48,28 @@ border-style: solid;
     grid-template-columns: repeat(auto-fill, minmax (150px, 1fr));
     width: 100%
 }
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #5c4b51;
+  padding: 0.5rem;
+}
+
+a:link{
+ color:#F2EBBF;
+}
+
+a:visited{
+ color: #F3B562;
+}
+
+a:hover{
+ color:#8CBEB2;
+}
+
+
 
 /* 
 https: //colordesigner.io/color-scheme-builder#5C4B51-8CBEB2-F2EBBF-F3B562-F06060
